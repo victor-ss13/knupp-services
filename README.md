@@ -10,3 +10,8 @@ The site needs to have:
 Color used:
 
 - #00A2FF (rgb: 0, 162, 255);
+
+Inspiration sites:
+
+- Mavit Stone: https://www.mavitstone.com/
+- Gala Design Center: https://galadesigncenter.com/
