@@ -14,4 +14,6 @@ Color used:
 Inspiration sites:
 
 - Mavit Stone: https://www.mavitstone.com/
-- Gala Design Center: https://galadesigncenter.com/
+- Gala Design Center: https://galadesigncenter.com
+
+Prototype: https://knuppservices.online/
