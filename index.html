@@ -5,18 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knupp Services</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 </head>
 <body>
-    <header id="header">
+    <header class="header">
         <div class="container">
             <img src="/assets/logo.png" alt="Knupp Services logo">
             <h1 class="container__title"><b class="container__titulo--bold">Knupp Services</b></h1>
         </div>
     </header>
     <main>
-        
+        <section class="banner">
+            <h2 class="banner__title">Pro Tile, Vinyl and Laminate installer</h2>
+            <p class="banner__text">Come and transform your room with our excellent service</p>
+        </section>
+
+        <section class="carousel">
+            <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="./src/img/Javascript.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/ApacheKafka.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/Liderança.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/Acessibilidade.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/Portugol.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/Guia Front-end.svg" alt=""></div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+        </section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        }
+      });
+      </script>
 </body>
 </html>
